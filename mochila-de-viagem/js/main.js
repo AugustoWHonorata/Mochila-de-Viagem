@@ -44,7 +44,6 @@ form.addEventListener("submit", (evento) => {
 
 function criaElemento(item){
 
-    // <li class="item"><strong>7</strong>Camisas</li>
     const novoItem = document.createElement('li')
     novoItem.classList.add("item")
 
